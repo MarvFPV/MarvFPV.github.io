@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+  <head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+    <link href="/favicon.png" rel="icon" type="image/png">
+    <link href="/feed.xml" rel="alternate" type="application/atom+xml">
+    <link href="https://ruudvanasseldonk.com{{url}}" rel="canonical">
+    {{if synopsis}}
+    <meta name="description" content="{{synopsis}}">
+    {{end}}
+    <meta name="author" content="Ruud van Asseldonk">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- TODO: is this still required in 2015? -->
+    <style>
+      {{include fonts.css}}
+      {{include page.css}}
+      {{if math}} {{include math.css}} {{end}}
+    </style>
+  </head>

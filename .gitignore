@@ -1,43 +1,33 @@
-# Ignore docs files
-_gh_pages
-_site
-.ruby-version
-.sass-cache
-.jekyll-cache
+# Build output
+/.stack-work
+/dist
+/src/*.hi
+/src/*.o
+/blog
 
-# Numerous always-ignore extensions
-*.diff
-*.err
-*.orig
-*.log
-*.rej
-*.swo
+# Cabal sandbox
+/.cabal-sandbox
+/cabal.sandbox.config
+
+# Editor files
 *.swp
-*.zip
-*.vi
-*~
+*.swo
 
-# OS or Editor folders
-.DS_Store
-._*
-Thumbs.db
-.cache
-.project
-.settings
-.tmproj
-*.esproj
-nbproject
-*.sublime-project
-*.sublime-workspace
-.idea
+# Nix build result symlink
+/result
 
-# Komodo
-*.komodoproject
-.komodotools
+# Image intermediate build products
+.ninja_log
+/images/compressed/*.br
+/images/compressed/*.gz
 
-# grunt-html-validation
-validation-status.json
-validation-report.json
+# Fonts, original and processed
+/fonts/generated
+/fonts/original
 
-# Folders to ignore
-node_modules
+# Generated blog output
+/out
+/docindex/index.rendered.html
+
+# Python virtualenv
+/venv
