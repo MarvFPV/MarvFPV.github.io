@@ -16,9 +16,11 @@
 .page-title,
 .post-title {
   color: var(--heading-color);
+  font-family: var(--header-font);
 }
 .page-title,
 .post-title {
+  font-family: var(--header-font);
   margin-top: 0;
 }
 .post-title a {
