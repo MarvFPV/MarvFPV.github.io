@@ -24,12 +24,11 @@ pre {
   padding: var(--spacer);
   margin-bottom: var(--spacer);
   background-color: var(--code-bg);
+  border-radius: var(--border-radius);
 
 
   pre {
     margin-bottom: 0;
-    border-left: solid;
-    border-color: var(--marv-brown);
   }
 
   // Triple backticks (code fencing) doubles the .highlight elements
