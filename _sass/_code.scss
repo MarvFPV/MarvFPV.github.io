@@ -18,6 +18,8 @@ pre {
   margin-top: 0;
   margin-bottom: var(--spacer-3);
   overflow: auto;
+  border-left: solid;
+  border-color: var(--marv-brown);
 }
 
 .highlight {
@@ -39,8 +41,6 @@ pre {
 .rouge-table {
   margin-bottom: 0;
   font-size: 100%;
-  border-left: solid;
-  border-color: var(--marv-brown);
 
   &,
   td,
