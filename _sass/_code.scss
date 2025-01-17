@@ -18,13 +18,12 @@ pre {
   margin-top: 0;
   margin-bottom: var(--spacer-3);
   overflow: auto;
-  border-left: solid;
-  border-color: var(--marv-brown);
 }
 
 .highlight {
   padding: var(--spacer);
   margin-bottom: var(--spacer);
+  background-color: var(--code-bg);
 
 
   pre {
