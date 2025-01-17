@@ -11,6 +11,8 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
 
+markdown: kramdown
+
 # Optimize Jekyll
 exclude:
   - .editorconfig
