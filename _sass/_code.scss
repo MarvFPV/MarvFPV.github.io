@@ -6,7 +6,6 @@
 code,
 pre {
   font-family: var(--code-font);
-
 }
 
 code {
@@ -26,7 +25,6 @@ pre {
   background-color: var(--code-bg);
   border-radius: var(--border-radius);
 
-
   pre {
     margin-bottom: 0;
   }
@@ -34,7 +32,6 @@ pre {
   // Triple backticks (code fencing) doubles the .highlight elements
   .highlight {
     padding: 0;
-
   }
 }
 
