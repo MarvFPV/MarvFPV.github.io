@@ -6,6 +6,8 @@
 code,
 pre {
   font-family: var(--code-font);
+  border-left: solid;
+  border-color: var(--marv-brown);
 }
 
 code {
