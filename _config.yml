@@ -1,5 +1,5 @@
 # Setup
-title: MarvFPV's Blog
+title: Marvin Schnabel
 url: https://marvfpv.github.io/
 paginate: 1
 baseurl: ""
@@ -39,11 +39,11 @@ author:
   email: marvfpv@gmail.com
 
 # Custom vars
-version: 3.0.0
+version: 1.0.0
 
 # Navbar page list
 nav:
-  - title: Blog
+  - title: Writing
     url: /archive
 
   - title: About
