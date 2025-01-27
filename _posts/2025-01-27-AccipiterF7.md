@@ -49,7 +49,7 @@ With the help of a little hot air i got those sorted pretty quickly and all the 
 
 Since the accelerometer unit inside worked perfectly fine and all other FCs didn't have this issue on the same firmware i assumed it was a hardware failure on the BMI270. I notified JLCPCB about it and we settled on a small Refund, enough for me to order a few bare BMIs and swap this one out. With that, i was ready to assemble the FC.
 
-![Assembled FC](/images/AccipiterF7/AssembledFC.png)
+![Assembled FC](/images/AccipiterF7/AssembledFc.png)
 
 I was really happy with how they looked and all connections worked fine so it was time to put it into a helicopter! I got my M4 at  [Faszination Modellbau](https://www.faszination-modellbau.de/) in Friedrichshafen (one of the biggest RC trade shows in europe) from [RC-Hangar 15](https://shop.rc-hangar15.de/), a shop who's owners i've known personally for years now and love to support. I also "accidentally" picked up a new transmitter, the Radiomaster Boxer, which by now has become my main radio for pretty much everything.
 
